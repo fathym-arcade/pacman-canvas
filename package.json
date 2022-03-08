@@ -1,6 +1,6 @@
 {
   "name": "@fathym-arcade/pacman-canvas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pacman-canvas =============",
   "main": "pacman-canvas.js",
   "scripts": {
