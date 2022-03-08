@@ -1,9 +1,12 @@
 {
-  "name": "pacman-canvas",
-  "version": "1.0.5",
+  "name": "@fathym-arcade/pacman-canvas",
+  "version": "0.0.0",
   "description": "pacman-canvas =============",
   "main": "pacman-canvas.js",
   "scripts": {
+    "build": "",
+    "deploy": "npm version patch && npm run deploy:app",
+    "deploy:app": "npm run build && npm publish ./ --access public",
     "start": "node server.js",
     "test": "jest",
     "start:dev": "webpack serve --env NODE_ENV=local"
